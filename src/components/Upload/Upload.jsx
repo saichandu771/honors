@@ -19,7 +19,7 @@ function Upload(props) {
         <label for="patient_age">Age</label>
       </div>
       <div class="col-75">
-        <input type="password" id="patient_age" name="patient_age" placeholder="Your age.."></input>
+        <input type="text" id="patient_age" name="patient_age" placeholder="Your age.."></input>
       </div>
     </div>
     <div class="row">
@@ -27,7 +27,7 @@ function Upload(props) {
         <label for="patient_gender">Gender</label>
       </div>
       <div class="col-75">
-        <select id="patient_gender" name="PatienT_gender">
+        <select id="patient_gender" name="Patient_gender">
           <option value="male">Male</option>
           <option value="female">Female</option>
           <option value="other">Other</option>

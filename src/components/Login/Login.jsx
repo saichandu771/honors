@@ -11,7 +11,7 @@ function Login(props) {
         <label for="email">Email</label>
       </div>
       <div class="col-75">
-        <input type="email" id="email" name="email" placeholder="enter email" required></input>
+        <input type="email" id="email" name="email" placeholder="enter email" size={100} required></input>
       </div>
     </div>
     <div class="row">
@@ -19,7 +19,7 @@ function Login(props) {
         <label for="password">Password</label>
       </div>
       <div class="col-75">
-        <input type="password" id="patient_age" name="patient_age" placeholder="Your age.."></input>
+        <input type="password" id="patient_age" name="patient_age" placeholder="enter password" size={100}></input>
       </div>
     </div>
     <div class="row">

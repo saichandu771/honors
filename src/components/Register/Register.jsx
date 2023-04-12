@@ -3,25 +3,30 @@ import "./register.css"
 function Register(props) {
   return  <div class="container">
      <div className="center"><h1>Registration Form</h1></div>
-  <form action="/action_page.php">
+     <form action="/action_page.php">
     <div class="row">
       <div class="col-25">
-        <label for="patient_name">Name</label>
+        <label for="email">Email</label>
       </div>
       <div class="col-75">
-        <input type="text" id="patient_name" name="patient_name" placeholder="Your name.."></input>
+        <input type="email" id="email" name="email" placeholder="enter email" size={100} required></input>
       </div>
     </div>
     <div class="row">
       <div class="col-25">
-        <label for="patient_age">Age</label>
+        <label for="password">Password</label>
       </div>
       <div class="col-75">
-        <input type="text" id="patient_age" name="patient_age" placeholder="Your age.."></input>
+        <input type="password" id="patient_age" name="patient_age" placeholder="enter password" size={100}></input>
       </div>
     </div>
     <div class="row">
+       
       <input type="submit" value="Submit"></input>
+      
+    </div>
+    <div>
+     
     </div>
   </form>
 </div>;
